@@ -1,0 +1,89 @@
+/* style.css 
+   Desiree Desario
+   2016
+*/
+
+h1 {
+	padding-left: 2%;
+	color: #5193D8;
+}
+.clearfix:after {
+	clear: both;
+	content: "";
+	display: block;
+	height: 0;
+	visibility: hidden;
+}
+.clearfix {
+	display: inline-block;
+}
+.clearfix {
+	display: block;
+}
+/*loop list*/
+
+.pokeList {
+	width: 300px;
+	font-family: Impact, Charcoal, sans-serif;
+	font-size: 16px;
+	padding: 0px px 0px 0px;
+}
+.pokeList li {
+	/*float: left; */
+	list-style-type: none;
+	border-radius: 20px;
+	border-left: 80px solid #B60A25;
+	border-right: 80px solid #B60A25;
+	background-color: #FFFFFF;
+	padding: 10px;
+	margin-bottom: 9px;
+	margin-left: 30px;
+}
+/*calculator*/
+
+
+button {
+	width: 80;
+	background: #5193D8;
+	color: white;
+	margin-left: 10px;
+}
+input {
+	width: 80px;
+	background: #5193D8;
+	color: white;
+	margin-left: 30px;
+}
+#numResult {
+	width: 80px;
+	background: #5193D8;
+	color: white;
+	margin-left: 10px;
+}
+/*ranker*/
+
+
+#pokedex {
+	width: 300px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	padding: 0px 10px 0px 0px;
+	margin-left: 30px;
+}
+#pokedex li {
+	list-style-type: none;
+	border-radius: 25px;
+	border-left: 6px solid #B60A25;
+	background-color: #5193D8;
+	padding: 7px;
+	margin-bottom: 9px;
+	margin-left: 30px;
+}
+#rankResults {
+	list-style-type: none;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	padding: 10px;
+	margin-bottom: 9px;
+	margin-left: 30px;
+}
